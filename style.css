@@ -7,9 +7,36 @@
     darkgreen #1e3932
 */
 * {
+  background-color: #1e3932;
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+  
 }
-
-/* your code */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav h1 {
+  color: #f2f0eb
+}
+header [for]{
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #d4e9e2;
+  
+}
+section {
+  border-radius: 5px;
+  border: 1px solid #d4e9e2;
+  padding: 15px;
+  margin: 10px 0px;
+}
+.city-item {
+  background-color: #00754a;
+  display:flex;
+  margin: 5px;
+  padding: 3px;
+  justify-content: flex-end;
+}
